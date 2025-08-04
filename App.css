@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  border: 2px dashed blue;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+}
+
+.product img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cart-item img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.add-to-cart-btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: darkblue;
+  transform: scale(1.05);
+}
